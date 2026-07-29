@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { ShieldCheck, MessageCircle, Award, CheckCircle2, Sparkles, BookOpen, Landmark, Scale, Target, GraduationCap } from 'lucide-react';
+import { ShieldCheck, MessageCircle, Award, CheckCircle2, Sparkles, BookOpen, Landmark, Scale, GraduationCap, Globe, TrendingUp, Leaf, Cpu, Calculator } from 'lucide-react';
 import { YoutubeIcon } from './SocialIcons';
 
 interface HeroProps {
@@ -106,7 +106,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnroll }) => {
             {/* Top Badge */}
             <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/10 border border-[#C89B3C]/40 backdrop-blur-md text-xs sm:text-sm font-semibold text-[#F3E5AB] shadow-inner">
               <Sparkles className="w-4 h-4 text-[#C89B3C] animate-pulse" />
-              <span>OFFICIAL UPSC & KPSC CIVIL SERVICES PLATFORM</span>
+              <span>OFFICIAL UPSC, KPSC, STATE PSC & GOVERNMENT JOBS PLATFORM</span>
             </div>
 
             {/* Main Title */}
@@ -120,7 +120,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnroll }) => {
 
             {/* Subheading */}
             <p className="text-base sm:text-lg lg:text-xl text-slate-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Prepare for UPSC & KPSC with concept-based teaching, daily current affairs, answer writing mastery, smart strategy, and complete exam guidance.
+              Prepare for UPSC, KPSC, State PSC, and Government Jobs with concept-based learning, current affairs, smart strategies, answer writing, and expert guidance.
             </p>
 
             {/* Micro Highlights Pill */}
@@ -210,7 +210,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnroll }) => {
                     CIVIL ACADEMY
                   </p>
                   <div className="px-3 py-1 rounded-full bg-white/10 border border-[#C89B3C]/30 text-[10px] font-bold text-slate-200 uppercase tracking-widest inline-block mt-1">
-                    UPSC & KPSC ACADEMIC CENTER
+                    UPSC, KPSC, STATE PSC & GOVT JOBS CENTER
                   </div>
                 </div>
 
@@ -280,18 +280,22 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnroll }) => {
       {/* Subject Strip Ribbon */}
       <div className="mt-16 pt-6 pb-6 bg-[#06112C]/90 border-y border-[#C89B3C]/20 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap items-center justify-around gap-6 text-center text-xs font-semibold text-slate-300">
+          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-center text-xs font-semibold text-slate-300">
             {[
-              { icon: Landmark, title: 'POLITY' },
+              { icon: Landmark, title: 'INDIAN POLITY' },
               { icon: BookOpen, title: 'HISTORY' },
+              { icon: Globe, title: 'GEOGRAPHY' },
+              { icon: TrendingUp, title: 'ECONOMICS' },
+              { icon: Leaf, title: 'ENVIRONMENT & ECOLOGY' },
+              { icon: Cpu, title: 'SCIENCE & TECHNOLOGY' },
               { icon: Scale, title: 'ETHICS' },
-              { icon: Target, title: 'GEOGRAPHY' },
               { icon: Sparkles, title: 'CURRENT AFFAIRS' },
               { icon: Award, title: 'ANSWER WRITING' },
+              { icon: Calculator, title: 'CSAT' },
             ].map((sub, i) => {
               const Icon = sub.icon;
               return (
-                <div key={i} className="flex items-center gap-2 hover:text-[#C89B3C] transition-colors cursor-pointer">
+                <div key={i} className="flex items-center gap-2 hover:text-[#C89B3C] transition-colors cursor-pointer whitespace-nowrap">
                   <Icon className="w-4 h-4 text-[#C89B3C]" />
                   <span className="tracking-wider">{sub.title}</span>
                 </div>

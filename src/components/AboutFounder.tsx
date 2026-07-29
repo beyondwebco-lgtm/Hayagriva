@@ -121,7 +121,7 @@ export const AboutFounder: React.FC = () => {
                   <Sparkles className="w-6 h-6" />
                 </div>
                 <div>
-                  <div className="text-sm font-bold">Ready to Start Your UPSC/KPSC Journey?</div>
+                  <div className="text-sm font-bold">Ready to Start Your UPSC, KPSC & State PSC Journey?</div>
                   <div className="text-xs text-slate-300">Get personalized guidance & concept notes.</div>
                 </div>
               </div>

@@ -53,7 +53,7 @@ export const Courses: React.FC<CoursesProps> = ({ onOpenEnroll }) => {
       category: 'upsc',
       title: 'Daily Current Affairs Program',
       badge: 'High Yield',
-      description: 'Daily simplified newspaper analysis (The Hindu, Indian Express, PIB) mapped directly to UPSC/KPSC syllabus.',
+      description: 'Daily simplified newspaper analysis (The Hindu, Indian Express, PIB) mapped directly to UPSC, KPSC & State PSC syllabus.',
       duration: '1 Year Subscription',
       mode: 'Daily Live @ 8 AM',
       highlights: ['Static vs Dynamic Inter-linkages', 'One-Page Daily PDF Summaries', 'Weekly Quiz & Monthly Compilations', 'Mains Issue-Based Analysis'],
@@ -199,7 +199,7 @@ export const Courses: React.FC<CoursesProps> = ({ onOpenEnroll }) => {
       category: 'skill',
       title: '15-Year PYQ Discussion',
       badge: 'Strategy Must',
-      description: 'Topic-wise breakdown of UPSC & KPSC previous year questions with elimination tricks and pattern insights.',
+      description: 'Topic-wise breakdown of UPSC, KPSC & State PSC previous year questions with elimination tricks and pattern insights.',
       duration: '40 Hours',
       mode: 'Video Masterclass',
       highlights: ['2000+ Solved PYQ Explanations', 'Option Elimination Logic', 'Repeat Theme Identification', 'Subject-wise Question Trends'],
@@ -230,7 +230,7 @@ export const Courses: React.FC<CoursesProps> = ({ onOpenEnroll }) => {
             Master Civil Services with <span className="text-gold-gradient">Concept-Based Courses</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg">
-            Structured modules designed for Prelims, Mains, and Interview success in UPSC CSE & KPSC KAS.
+            Structured modules designed for Prelims, Mains, and Interview success in UPSC, KPSC, State PSC, and Government Job exams.
           </p>
         </div>
 

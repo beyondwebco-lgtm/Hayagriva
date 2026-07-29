@@ -143,7 +143,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnroll }) => {
           <div className="hidden md:flex items-center gap-3">
             {/* WhatsApp Link */}
             <a
-              href="https://wa.me/917795662468?text=Hello%20Hayagriva%20Civil%20Academy%2C%20I%20want%20to%20know%20more%20about%20UPSC%2FKPSC%20coaching."
+              href="https://wa.me/917795662468?text=Hello%20Hayagriva%20Civil%20Academy%2C%20I%20want%20to%20know%20more%20about%20UPSC%2C%20KPSC%2C%20State%20PSC%20%26%20Govt%20Jobs%20coaching."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-3.5 py-2 text-xs font-bold rounded-xl text-emerald-600 bg-emerald-50 border border-emerald-200 hover:bg-emerald-100 hover:border-emerald-300 transition-all duration-300 shadow-sm"
@@ -211,7 +211,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnroll }) => {
 
               <div className="pt-4 border-t border-white/10 flex flex-col gap-3">
                 <a
-                  href="https://wa.me/917795662468?text=Hello%20Hayagriva%20Civil%20Academy%2C%20I%20want%20to%20know%20more%20about%20UPSC%2FKPSC%20coaching."
+                  href="https://wa.me/917795662468?text=Hello%20Hayagriva%20Civil%20Academy%2C%20I%20want%20to%20know%20more%20about%20UPSC%2C%20KPSC%2C%20State%20PSC%20%26%20Govt%20Jobs%20coaching."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-emerald-600 text-white font-bold text-sm shadow-md"

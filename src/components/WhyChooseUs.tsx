@@ -27,7 +27,7 @@ export const WhyChooseUs: React.FC = () => {
     {
       icon: Target,
       title: 'PYQ Based Preparation',
-      desc: 'Deep analysis of last 15 years UPSC & KPSC questions to decode examiner mindset.',
+      desc: 'Deep analysis of last 15 years UPSC, KPSC & State PSC questions to decode examiner mindset.',
     },
     {
       icon: Brain,
@@ -47,7 +47,7 @@ export const WhyChooseUs: React.FC = () => {
     {
       icon: CheckSquare,
       title: 'Mock Tests Series',
-      desc: 'Standardized test papers matching exact UPSC & KPSC difficulty levels.',
+      desc: 'Standardized test papers matching exact UPSC, KPSC & State PSC difficulty levels.',
     },
     {
       icon: Edit3,

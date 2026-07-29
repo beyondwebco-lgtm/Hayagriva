@@ -95,7 +95,7 @@ export const Stats: React.FC = () => {
       targetNum: 10,
       suffix: '+',
       value: '10+',
-      label: 'Years UPSC Experience',
+      label: 'Years Prep & Guidance Experience',
       sublabel: 'Dedicated preparation & guidance since 2015',
     },
     {

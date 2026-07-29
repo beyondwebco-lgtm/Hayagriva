@@ -36,7 +36,7 @@ export const FAQ: React.FC = () => {
     },
     {
       q: 'Are mock tests available?',
-      a: 'Yes, we offer complete Prelims Sectional & Full-Length Test Series along with Mains Evaluation Tests matching exact UPSC & KPSC difficulty patterns and rank percentile feedback.',
+      a: 'Yes, we offer complete Prelims Sectional & Full-Length Test Series along with Mains Evaluation Tests matching exact UPSC, KPSC & State PSC difficulty patterns and rank percentile feedback.',
     },
     {
       q: 'How long should I prepare?',
@@ -62,7 +62,7 @@ export const FAQ: React.FC = () => {
             Have Questions? <span className="text-gold-gradient">We Have Answers</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg">
-            Find quick answers to common queries regarding UPSC & KPSC preparation, notes, tests, and mentorship.
+            Find quick answers to common queries regarding UPSC, KPSC, State PSC & Government Jobs preparation, notes, tests, and mentorship.
           </p>
         </div>
 

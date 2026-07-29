@@ -20,7 +20,7 @@ export const LearningProcess: React.FC = () => {
       icon: Edit3,
       badge: 'Application Phase',
       desc: 'Solve chapter-wise PYQs and daily mains answer writing prompts to apply learned concepts immediately.',
-      details: ['Daily 2 Mains Answer Prompts', 'UPSC & KPSC 15-Year PYQ Drills', 'Option elimination logic building'],
+      details: ['Daily 2 Mains Answer Prompts', 'UPSC, KPSC & State PSC 15-Year PYQ Drills', 'Option elimination logic building'],
     },
     {
       num: 3,

@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs text-slate-300 leading-relaxed max-w-sm">
-              Empowering aspirants through concept-based learning, smart preparation strategies, quality mentorship, and disciplined guidance for UPSC, KPSC, and Civil Services examinations.
+              Empowering aspirants through concept-based learning, smart preparation strategies, quality mentorship, and disciplined guidance for UPSC, KPSC, State PSC, and Government Job examinations.
             </p>
 
             <div className="flex items-center gap-3 pt-2">
