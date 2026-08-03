@@ -3,6 +3,7 @@ import { LoadingScreen } from './components/LoadingScreen';
 import { CustomCursor } from './components/CustomCursor';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
+import { IntroVideoSection } from './components/IntroVideoSection';
 import { Stats } from './components/Stats';
 import { AboutFounder } from './components/AboutFounder';
 import { WhyChooseUs } from './components/WhyChooseUs';
@@ -42,6 +43,9 @@ export function App() {
       <main>
         {/* Hero Section */}
         <Hero onOpenEnroll={handleOpenEnroll} />
+
+        {/* Dedicated Introduction Video Section */}
+        <IntroVideoSection />
 
         {/* Animated Statistics Section */}
         <Stats />

@@ -86,12 +86,28 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnroll }) => {
 
   return (
     <section id="home" className="relative pt-28 pb-20 md:pt-36 md:pb-28 overflow-hidden bg-[#0B1F4D] text-white">
+      {/* Background Hero Video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        className="hero-video absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="/intro-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Subtle Dark Overlay (45%) for text legibility */}
+      <div className="absolute inset-0 bg-[#0B1F4D]/65 bg-black/35 z-0 pointer-events-none" />
+
       {/* Background Interactive Particles Canvas */}
-      <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none z-0" />
+      <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none z-0 opacity-30" />
 
       {/* Decorative Radial Lighting */}
-      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-[#C89B3C]/15 blur-[140px] pointer-events-none" />
-      <div className="absolute bottom-10 right-10 w-[400px] h-[400px] rounded-full bg-blue-600/20 blur-[130px] pointer-events-none" />
+      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-[#C89B3C]/15 blur-[140px] pointer-events-none z-0" />
+      <div className="absolute bottom-10 right-10 w-[400px] h-[400px] rounded-full bg-blue-600/20 blur-[130px] pointer-events-none z-0" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">

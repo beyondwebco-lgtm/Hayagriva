@@ -120,11 +120,24 @@ export const Footer: React.FC = () => {
                 <MapPin className="w-4 h-4 text-[#C89B3C] shrink-0 mt-0.5" />
                 <span>#212, 3rd Cross, Siddhartha Layout, Mandya – 571401</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-[#C89B3C] shrink-0" />
-                <span className="font-bold text-white">+91 77956 62468</span>
+              <div className="flex items-start gap-2">
+                <Phone className="w-4 h-4 text-[#C89B3C] shrink-0 mt-0.5" />
+                <div className="space-y-1">
+                  <div>
+                    <span className="text-[#F3E5AB] font-semibold">Enquiry: </span>
+                    <a href="tel:+917795662468" className="font-bold text-white hover:text-[#C89B3C] transition-colors">+91 77956 62468</a>
+                  </div>
+                  <div>
+                    <span className="text-[#F3E5AB] font-semibold">Contact: </span>
+                    <a href="tel:+919008441489" className="font-bold text-white hover:text-[#C89B3C] transition-colors">+91 90084 41489</a>
+                  </div>
+                  <div>
+                    <span className="text-[#F3E5AB] font-semibold">Contact: </span>
+                    <a href="tel:+917795667898" className="font-bold text-white hover:text-[#C89B3C] transition-colors">+91 77956 67898</a>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 pt-1 border-t border-white/10">
                 <Mail className="w-4 h-4 text-[#C89B3C] shrink-0" />
                 <span>contact@hayagrivacivilacademy.com</span>
               </div>

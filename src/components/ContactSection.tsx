@@ -66,12 +66,20 @@ export const ContactSection: React.FC = () => {
               </p>
 
               <div className="pt-4 border-t border-white/10 space-y-3 text-xs text-slate-300">
-                <div className="flex items-center gap-3">
-                  <Phone className="w-4 h-4 text-[#C89B3C]" />
-                  <span className="font-bold text-white">+91 77956 62468</span>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-3">
+                    <Phone className="w-4 h-4 text-[#C89B3C] shrink-0" />
+                    <span><strong className="text-[#F3E5AB]">Enquiry:</strong> <a href="tel:+917795662468" className="font-bold text-white hover:text-[#C89B3C] transition-colors">+91 77956 62468</a></span>
+                  </div>
+                  <div className="flex items-center gap-3 pl-[28px]">
+                    <span><strong className="text-[#F3E5AB]">Contact:</strong> <a href="tel:+919008441489" className="font-bold text-white hover:text-[#C89B3C] transition-colors">+91 90084 41489</a></span>
+                  </div>
+                  <div className="flex items-center gap-3 pl-[28px]">
+                    <span><strong className="text-[#F3E5AB]">Contact:</strong> <a href="tel:+917795667898" className="font-bold text-white hover:text-[#C89B3C] transition-colors">+91 77956 67898</a></span>
+                  </div>
                 </div>
-                <div className="flex items-center gap-3">
-                  <Mail className="w-4 h-4 text-[#C89B3C]" />
+                <div className="flex items-center gap-3 pt-1 border-t border-white/5">
+                  <Mail className="w-4 h-4 text-[#C89B3C] shrink-0" />
                   <span>contact@hayagrivacivilacademy.com</span>
                 </div>
               </div>
