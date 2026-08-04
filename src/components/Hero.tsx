@@ -234,18 +234,18 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnroll }) => {
 
               </div>
 
-              {/* Orbiting Floating Element 1: Polity & Administration */}
+              {/* Orbiting Floating Element 1: Current Affairs */}
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
                 className="absolute -top-6 -left-6 px-4 py-2.5 rounded-2xl glass-card-dark border border-[#C89B3C]/50 shadow-2xl flex items-center gap-3 backdrop-blur-xl"
               >
                 <div className="w-10 h-10 rounded-xl bg-gold-gradient text-[#0B1F4D] flex items-center justify-center font-bold">
-                  <Landmark className="w-5 h-5 text-[#0B1F4D]" />
+                  <Sparkles className="w-5 h-5 text-[#0B1F4D]" />
                 </div>
                 <div className="text-left">
-                  <div className="text-xs font-bold text-[#F3E5AB]">Indian Polity</div>
-                  <div className="text-[10px] text-slate-300 font-medium">Laxmikanth & Governance</div>
+                  <div className="text-xs font-bold text-[#F3E5AB]">Current Affairs</div>
+                  <div className="text-[10px] text-slate-300 font-medium">Daily News Analysis & Editorials</div>
                 </div>
               </motion.div>
 
